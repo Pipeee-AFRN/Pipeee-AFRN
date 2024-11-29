@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class NumerosPares {
     public static void main(String[] args) {
-        
         Scanner scanner = new Scanner(System.in);
-       
         System.out.println("Ingresa dos numeros para calcular el rango. Ejemplo (1,100):");
 
         int count = 0;
@@ -26,7 +24,6 @@ public class NumerosPares {
                 count ++;
             }
 
-            
         }
 
         System.out.println("Hay " + count + " números pares entre 1 y 100.");
